@@ -1,0 +1,47 @@
+/* DataFetchingStyles.css */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* To horizontally center the cards */
+    background-color: black;
+    height: 200vh;
+    width: 100%;
+    background-size: cover;
+    
+  }
+
+  @media screen and (max-width:960px){
+    .card-container{
+      height: 650vh;
+      background-repeat: repeat;
+    }
+  }
+  
+  .card-property {
+    margin: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 28rem;
+  }
+
+  
+  @media screen and (max-width: 768px){
+    .card-property {
+      width: 18rem;
+      margin: 10px;
+    }
+  }
+  
+  .card-body {
+    padding: 5px;
+    margin: 20px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    margin-bottom: 10px;
+  }
+  
